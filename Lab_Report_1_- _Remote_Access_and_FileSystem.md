@@ -1,7 +1,6 @@
 1) cd command
 ![Image](cse15l1.png)
 ![Image](cse15l4.png)
-
 ![Image](cse15l5.png)
 ![Image](cse15l6.png)
 
