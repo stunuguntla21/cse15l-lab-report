@@ -1,7 +1,7 @@
 # Lab 1
 ## Sujit Tunuguntla
 
-** 1) cd command **
+**1) cd command**
 
 *Example of using the cd command with no arguments:*
 ![Image](cse15l8.png)
@@ -13,7 +13,8 @@
 ![Image](cse15l5.png)
 
 
-** 2) ls command **
+**2) ls command**
+
 *Example of using the cd command with no arguments:*
 ![Image](cse15l11.png)
 
@@ -23,7 +24,8 @@
 *Example of using the cd command with a path to a file as an argument:*
 ![Image](cse15l13.png)
 
-** 3) cat command **
+**3) cat command**
+
 *Example of using the cd command with no arguments:*
 ![Image](cse15l4.png)
 
