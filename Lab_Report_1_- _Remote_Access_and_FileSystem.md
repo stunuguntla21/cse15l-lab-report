@@ -1,11 +1,11 @@
 1) cd command
-![Image](cse15l1.png)
-![Image](cse15l9.png)
-
+![Image](cse15l11.png)
+![Image](cse15l12.png)
+![Image](cse15l13.png)
 
 3) ls command
 ![Image](cse15l8.png)
-![Image](cse15l6.png)
+![Image](cse15l10.png)
 ![Image](cse15l5.png)
 
 
