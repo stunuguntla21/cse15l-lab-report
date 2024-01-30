@@ -11,11 +11,21 @@ Example of using the cd command with a path to a file as an argument:
 
 
 3) ls command
+Example of using the cd command with no arguments:
 ![Image](cse15l11.png)
+
+Example of using the cd command with a path to a directory as an argument:
 ![Image](cse15l12.png)
+
+Example of using the cd command with a path to a file as an argument:
 ![Image](cse15l13.png)
 
-4) cat command
+5) cat command
+Example of using the cd command with no arguments:
 ![Image](cse15l4.png)
+
+Example of using the cd command with a path to a directory as an argument:
 ![Image](cse15l3.png)
+
+Example of using the cd command with a path to a file as an argument:
 ![Image](cse15l2.png)
