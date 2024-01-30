@@ -1,6 +1,6 @@
 1) cd command
 
-![Image](Screenshot 2024-01-30 115000.png)
+![Image](Screenshot 2024-01-30 114739.png)
 
 ![Image](Screenshot 2024-01-30 114825.png)
 
