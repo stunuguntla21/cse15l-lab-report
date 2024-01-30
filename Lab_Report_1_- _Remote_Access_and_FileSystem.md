@@ -1,9 +1,9 @@
-1) ls command
+1) cd command
 ![Image](cse15l8.png)
 ![Image](cse15l10.png)
 ![Image](cse15l5.png)
 
-1) cd command
+2) ls command
 ![Image](cse15l11.png)
 ![Image](cse15l12.png)
 ![Image](cse15l13.png)
