@@ -1,4 +1,3 @@
-1) cd command
 
 ![Image](Screenshot 2024-01-30 114739.png)
 
