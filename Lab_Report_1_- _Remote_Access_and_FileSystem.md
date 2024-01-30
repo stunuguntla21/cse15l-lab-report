@@ -4,7 +4,6 @@
 
 
 3) ls command
-![Image](cse15l7.png)
 ![Image](cse15l8.png)
 ![Image](cse15l6.png)
 ![Image](cse15l5.png)
