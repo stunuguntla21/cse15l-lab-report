@@ -1,4 +1,4 @@
-#Lab 1
+# Lab 1
 ## Sujit Tunuguntla
 
 ** 1) cd command **
