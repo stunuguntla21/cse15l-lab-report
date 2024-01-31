@@ -1,7 +1,7 @@
 # Lab #1 Remote Access and FileSystem
 ## Sujit Tunuguntla
 
-**1) "cd" command**
+**1) " cd " command**
 
 *Example of using the 'cd' command with no arguments:*
 ![Image](cse15l8.png)
