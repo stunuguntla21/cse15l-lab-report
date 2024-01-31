@@ -9,6 +9,7 @@
 
     class Handler implements URLHandler {
         String added = "";
+        
         public String handleRequest(URI url) {
             if (url.getPath().equals("/add-message")) {
                 String[] parameters = url.getQuery().split("&");
@@ -17,6 +18,7 @@
     
                 added += user + ": " + message + "\n";
                 return added.toString();
+                
             } else {
                 return "404 Not Found!";
             }
@@ -24,7 +26,6 @@
     }
 
     public class ChatServer {
-
         public static void main(String[] args) throws IOException {
         
             if (args.length == 0) {
