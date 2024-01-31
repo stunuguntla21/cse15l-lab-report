@@ -23,7 +23,7 @@ class Handler implements URLHandler {
     }
 }
 
-public class ChatServer {
+    public class ChatServer {
 
     public static void main(String[] args) throws IOException {
     
