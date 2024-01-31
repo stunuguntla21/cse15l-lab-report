@@ -3,7 +3,16 @@
 
 **Part 1**
 
+
 **Part 2**
+*Absolute path to the private key for SSH key*
+![Image](lab2i1.png)
+
+*Absolute path to the public key for SSH key*
+![Image](lab2i2.png)
+
+*Terminal Interaction without password*
+![Image](lab2i3.png)
 
 **Part 3**
 In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn't know before.
