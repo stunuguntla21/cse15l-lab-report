@@ -25,6 +25,7 @@ When the ls command is run with no arguments it produced an output of lecture1 w
 *Example of using the cd command with a path to a directory as an argument:*
 ![Image](cse15l13.png)
 When the ls command is run with path directory as the argument it produces and output of the list of the files and folder within, and for the given argument path it prints out a files/folder list: Hello.class  Hello.java  messages  README.
+
 *Example of using the cd command with a path to a file as an argument:*
 ![Image](cse15l12.png)
 When the ls command is used on a path to a file it does not produce a detailed error, as it only outputs the path given as the argument therfore indicating to verify the path to directory is correct. 
