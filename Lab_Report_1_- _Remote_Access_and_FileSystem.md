@@ -1,7 +1,7 @@
 # Lab #1 Remote Access and FileSystem
 ## Sujit Tunuguntla
 
-#**1) `cd` command**
+# **1) `cd` command**
 
 *Example of using the `cd` command with no arguments:*
 ![Image](cse15l8.png)
@@ -16,7 +16,7 @@ When the `cd` command is run with a path to a directory, /home/lecture1, the dir
 When the `cd` command is run on a path to a file, /home/lecture1/Hello.java, it throws an error that the argument is not a directory as the command is unable to change the directory since the path given was to a file. The working directory following running the `cd` command using the `pwd` command is /home.
 
 
-#**2) `ls` command**
+# **2) `ls` command**
 
 *Example of using the `ls` command with no arguments:*
 ![Image](cse15l11.png)
@@ -30,7 +30,8 @@ When the `ls` command is run with path directory as the argument it produces and
 ![Image](cse15l12.png)
 When the `ls` command is used on a path to a file it does not produce a detailed error, as it only outputs the path given as the argument therefore indicating to verify the path to directory is correct. The working directory following running the `ls` command using the pwd command is /home.
 
-#**3) `cat` command**.
+# **3) `cat` command**
+
 *Example of using the `cat` command with no arguments:*
 ![Image](cse15l4.png)
 When `cat` command is run with no arguments, there is no output produced since the command functions to print the contents of one or more files whose path is to be given as the argument(no error is thrown as no output is produced). The working directory following running the `cat` command using the pwd command is /home.
