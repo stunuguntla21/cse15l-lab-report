@@ -37,7 +37,17 @@
             Server.start(port, new Handler());
         }
     }
+# Usage #1 of `/add-message`
+![Image](lab2i5.png)
 
+*Which methods in your code are called?*
+
+*What are the relevant arguments to those methods, and the values of any relevant fields of the class?*
+
+*How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.*
+
+# Usage #2 of `/add-message`
+![Image](lab2i6.png)
 
 *Which methods in your code are called?*
 
