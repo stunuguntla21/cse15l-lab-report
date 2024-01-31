@@ -55,18 +55,20 @@
 
 *How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.*
 
+
 # **Part 2**
 *Using `ls` command to get:*
 
-*Absolute path to the private key for SSH key*
+#*Absolute path to the private key for SSH key*
 
 ![Image](lab2i4.png)
 
-*Absolute path to the public key for SSH key*
+#*Absolute path to the public key for SSH key*
 ![Image](lab2i2.png)
 
-*Terminal Interaction without password*
+#*Terminal Interaction without password*#
 ![Image](lab2i3.png)
+
 
 # **Part 3**
 *Describe something you learned from lab in week 2 or 3 that you didn't know before.*
