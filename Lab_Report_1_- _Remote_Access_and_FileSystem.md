@@ -1,4 +1,4 @@
-# Lab 1
+# Lab #1 Remote Access and FileSystem
 ## Sujit Tunuguntla
 
 **1) cd command**
