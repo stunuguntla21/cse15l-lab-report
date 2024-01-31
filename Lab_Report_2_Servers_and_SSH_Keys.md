@@ -6,6 +6,7 @@
 
 # **Part 2**
 *Using `ls` commanc to get:*
+
 *Absolute path to the private key for SSH key*
 
 ![Image](lab2i4.png)
