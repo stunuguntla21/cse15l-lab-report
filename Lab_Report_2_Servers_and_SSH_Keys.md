@@ -6,6 +6,7 @@
 
 **Part 2**
 *Absolute path to the private key for SSH key*
+
 ![Image](lab2i4.png)
 
 *Absolute path to the public key for SSH key*
