@@ -42,38 +42,58 @@
 
 *Which methods in your code are called?*
 `handleRequest()` is the main method called 
+
 `main()` method is also called when compiling to ChatServer.class`
+
 Within `handleRequest()' method there is calling of other methods: `getQuery()`, `split()`, `length`, `equals()`
 
 *What are the relevant arguments to those methods, and the values of any relevant fields of the class?*
- `handleRequest()` has argument of URL: http://localhost:4509/add-message?s=Nice%20to%20meet%20you&user=stunuguntla
+
+ `handleRequest()` has argument of URL: http://localhost:4509/add-message?s=Always%20a%20pleasure&user=kevin%20durant
+
  `main()` method is the port number of 4509
- `getQuery()`
- `split()`
- `length`
- `equals()`
+ 
+ `getQuery()` has no argument
+ 
+ `split()` is called with argument "&", "=", ':'
+
+ `length` has no argument
+ 
+ `equals()` takes in argument "/add-message"
+ 
  
 *How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.*
-added = 'stunuguntla: Nice to meet you \n" is changed from and empy string added = ''
+
+added = 'stunuguntla: Nice to meet you \n" is changed from and empty string added = ''
 
 # Usage #2 of `/add-message`
 ![Image](lab2i6.png)
 
 *Which methods in your code are called?*
+
 `handleRequest()` is the main method called 
+
 `main()` method is also called when compiling to ChatServer.class`
+
 Within `handleRequest()' method there is calling of other methods: `getQuery()`, `split()`, `length`, `equals()`
 
 *What are the relevant arguments to those methods, and the values of any relevant fields of the class?*
+
 `handleRequest()` has argument of URL: http://localhost:4509/add-message?s=Always%20a%20pleasure&user=kevin%20durant
+
  `main()` method is the port number of 4509
- `getQuery()`
- `split()`
- `length`
- `equals()`
+ 
+ `getQuery()` has no argument
+ 
+ `split()` is called with argument "&", "=", ':'
+
+ `length` has no argument
+ 
+ `equals()` takes in argument "/add-message"
  
 *How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.*
-added = 'kevin durant: Always a pleasure \n" is changed from and empy string added = ''
+
+added = 'kevin durant: Always a pleasure \n" is changed from and empty string added = ''
 
 # **Part 2**
 *Using `ls` command to get:*
