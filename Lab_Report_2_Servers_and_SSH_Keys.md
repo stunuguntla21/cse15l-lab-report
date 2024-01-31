@@ -59,14 +59,14 @@
 # **Part 2**
 *Using `ls` command to get:*
 
-#*Absolute path to the private key for SSH key*
+# *Absolute path to the private key for SSH key*
 
 ![Image](lab2i4.png)
 
-#*Absolute path to the public key for SSH key*
+# *Absolute path to the public key for SSH key*
 ![Image](lab2i2.png)
 
-#*Terminal Interaction without password*#
+# *Terminal Interaction without password* #
 ![Image](lab2i3.png)
 
 
