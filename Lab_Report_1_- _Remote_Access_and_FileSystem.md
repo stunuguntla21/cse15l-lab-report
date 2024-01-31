@@ -22,7 +22,7 @@ When the cd command is run on a path to a file, /home/lecture1/Hello.java, it th
 ![Image](cse15l11.png)
 When the ls command is run with no arguments it produced an output of lecture1 which is the workspace it is in as the command is used to list the files and folders in a given path
 
-Example of using the cd command with a path to a directory as an argument:*
+*Example of using the cd command with a path to a directory as an argument:*
 ![Image](cse15l13.png)
 When the ls command is run with path directory as the argument it produces and output of the list of the files and folder within, and for the given argument path it prints out a files/folder list: Hello.class  Hello.java  messages  README.
 *Example of using the cd command with a path to a file as an argument:*
