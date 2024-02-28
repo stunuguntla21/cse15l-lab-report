@@ -1,9 +1,10 @@
-# Lab 3 Bugs and Commands #
-
+# Lab #3 Bugs and Commands #
 
 
 ## Part 1 - Bugs ##
 
+## A failure-inducing input(bug program) ##
+```
     @Test 
 	  public void testReversed() {
  
@@ -13,27 +14,24 @@
     
     assertArrayEquals(new int[]{ 3, 2, 1 }, ArrayExamples.reversed(input1));
 	  } 
-
-` @Test `
-	public void testReversed() {
-  int[] input1 = { };
+```
+## A non failur-inducing input ##
+```
+   @Test 
+	  public void testReversed() {
+ 
+    int[] input1 = { };
     
-`  assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
-  }
- `
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+	  }
+```
 
 
 ## Symptom ##
-write@Suj-Dell MINGW64 ~/lab3 (main)
-$ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ArrayTests
-JUnit version 4.13.2
-..
-Time: 0.023
-
-OK (2 tests)
+![Image](8.png)
 
 ## Bug Before  Fix ##
-`
+```
  static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
@@ -41,9 +39,9 @@ OK (2 tests)
     }
     return arr;
   }
-`
+```
 ## Bug After Fix ##
-`
+```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
@@ -51,7 +49,7 @@ static int[] reversed(int[] arr) {
     }
     return newArray;
   }
-`
+```
 ## Addressing the issues ##
 - Reason: The bug was caused due to there being re-intializing of the elements within the original array to the new array which lead to the old arrays being replaced with values of 0 and the new array therefore having no elements initialized
 
@@ -63,8 +61,9 @@ static int[] reversed(int[] arr) {
 ## `- type ` ##
 
 Example 1:
+```
 write@Suj-Dell MINGW64 ~/OneDrive/Documents/GitHub/docsearch (main)
-$ find technical/biomed/ -type f
+$ find technical/biomed/ -type d
 technical/biomed/1468-6708-3-1.txt
 technical/biomed/1468-6708-3-10.txt
 technical/biomed/1468-6708-3-3.txt
@@ -133,17 +132,11 @@ technical/biomed/1471-2121-2-22.txt
 technical/biomed/1471-2121-2-3.txt
 technical/biomed/1471-2121-2-6.txt
 technical/biomed/1471-2121-3-10.txt
-technical/biomed/1471-2121-3-11.txt
-technical/biomed/1471-2121-3-12.txt
-technical/biomed/1471-2121-3-13.txt
-technical/biomed/1471-2121-3-15.txt
-technical/biomed/1471-2121-3-16.txt
-technical/biomed/1471-2121-3-18.txt
-technical/biomed/1471-2121-3-19.txt
-technical/biomed/1471-2121-3-2.txt
-technical/biomed/1471-2121-3-21.txt
-`
+```
+* In this example, `-type` d command prints out the names paths of directories contained in a certain directory and is useful to perform operations on directories without affecting the files inside them.
+
 Example 2:
+```
 write@Suj-Dell MINGW64 ~/OneDrive/Documents/GitHub/docsearch (main)
 $ find technical/government/ -type f
 technical/government/About_LSC/Comments_on_semiannual.txt
@@ -172,11 +165,13 @@ technical/government/Env_Prot_Agen/atx1-6.txt
 technical/government/Env_Prot_Agen/bill.txt
 technical/government/Env_Prot_Agen/ctf1-6.txt
 technical/government/Env_Prot_Agen/ctf7-10.txt
+```
 
-* The -type command is used to print out the names and paths of the directories in a specifc directory and can be used to perform operations on the directories without affecting the files inside. *
+* In this example, using the -type f command is used to look and find regular files and can be useful to search for files by name or extension.
 
 ## 2) ` -size ` ##
 Example 1:
+```
 write@Suj-Dell MINGW64 ~/OneDrive/Documents/GitHub/docsearch (main)
 $ find technical/government/ -size +12k
 technical/government/About_LSC/Comments_on_semiannual.txt
@@ -214,10 +209,13 @@ technical/government/Env_Prot_Agen/tech_adden.txt
 technical/government/Env_Prot_Agen/tech_sectiong.txt
 technical/government/Gen_Account_Office/ai00134.txt
 technical/government/Gen_Account_Office/ai2132.txt
-
+```
+* In this example the command `-size` +12k is used in combination with the `find` command as this allows there to be filter by using the `-size` to query based on the file sizes and by specifying the +12k, there will be filtered to only files that are greater than 12 kilobytes in size. (Note: the output has been truncated to be within a page as mentioned in previous grading comments)
+  
 Example 2:
+```
 write@Suj-Dell MINGW64 ~/OneDrive/Documents/GitHub/docsearch (main)
-$ find technical/biomed/ -size +12k
+$ find technical/biomed/ -size -15k
 technical/biomed/1468-6708-3-1.txt
 technical/biomed/1468-6708-3-10.txt
 technical/biomed/1468-6708-3-3.txt
@@ -247,14 +245,14 @@ technical/biomed/1471-2091-4-1.txt
 technical/biomed/1471-2091-4-5.txt
 technical/biomed/1471-2105-1-1.txt
 technical/biomed/1471-2105-2-1.txt
+```
 
-
-* The -size command is used to be able to quert within fules that are less, equal, or greater than the specified file size and is useful when looking for files of certain size. *
-
+*  In this example the command `-size` -15k is used in combination with the `find` command as this allows there to be filter by using the `-size` to query based on the file sizes and by specifying the -15k, there will be filtered to only files that are smaller than 15 kilobytes in size. (Note: the output has been truncated to be within a page as mentioned in previous grading comments)
 
 ## 3) `-mtime` ##
 
 Example 1:
+```
 write@Suj-Dell MINGW64 ~/OneDrive/Documents/GitHub/docsearch (main)
 $ find technical/biomed/ -mtime -7
 technical/biomed/
@@ -327,10 +325,12 @@ technical/biomed/1471-2121-2-3.txt
 technical/biomed/1471-2121-2-6.txt
 technical/biomed/1471-2121-3-10.txt
 technical/biomed/1471-2121-3-11.txt
-
+```
+* In this example `-mtime` command is used to search combined with the `-find` command for which files were modified in a specific period of time and in this case the -7 following the command indicates for files modified within the last 7 days . 
 Example 2:
+```
 write@Suj-Dell MINGW64 ~/OneDrive/Documents/GitHub/docsearch (main)
-$ find technical/plos/ -mtime -7
+$ find technical/plos/ -mtime +3
 technical/plos/
 technical/plos/journal.pbio.0020001.txt
 technical/plos/journal.pbio.0020010.txt
@@ -365,14 +365,14 @@ technical/plos/journal.pbio.0020127.txt
 technical/plos/journal.pbio.0020133.txt
 technical/plos/journal.pbio.0020140.txt
 technical/plos/journal.pbio.0020145.txt
-
-* The `-mtime` command is used to search for which files were modified in a specific period of time where the use of - is within the last certain days and + is after inputed number of days. *
+```
+* In this example `-mtime` command is used to combined with the `-find` command to search for which files were modified in a specific period of time and in this case the +3 following the command indicates for files modified after past the last 3 days. 
 
 ## 4) `-perm`
 Example 1:
-
+```
 write@Suj-Dell MINGW64 ~/OneDrive/Documents/GitHub/docsearch (main)
-$ find technical/plos/ -perm 644
+$ find technical/plos/ -perm 541
 technical/plos/journal.pbio.0020001.txt
 technical/plos/journal.pbio.0020010.txt
 technical/plos/journal.pbio.0020012.txt
@@ -408,9 +408,10 @@ technical/plos/journal.pbio.0020140.txt
 technical/plos/journal.pbio.0020145.txt
 technical/plos/journal.pbio.0020146.txt
 technical/plos/journal.pbio.0020147.txt
-
-
+```
+* In this example, the `-perm` command is useful to be able to search for files combined with the `-find` command with a specific number of permissions allowed and will be easy to verify file permissions that are unprotected or restrictive and in this case the 641 indicates readable and executable by the owner, but only readable by others
 Example 2:
+```
 write@Suj-Dell MINGW64 ~/OneDrive/Documents/GitHub/docsearch (main)
 $ find technical/government/ -perm 644
 technical/government/About_LSC/Comments_on_semiannual.txt
@@ -449,11 +450,13 @@ technical/government/Env_Prot_Agen/section-by-section_summary.txt
 technical/government/Env_Prot_Agen/tech_adden.txt
 technical/government/Env_Prot_Agen/tech_sectiong.txt
 technical/government/Gen_Account_Office/ai00134.txt
+```
 
-* The `-perm` command is useful to be able to search for files with a specific number of permissions allowed and will be easy to verify file permissions that are unprotected or restrictive * 
+* In this example, the `-perm` command is useful to be able to search for files combined with the `-find` command with a specific number of permissions allowed and will be easy to verify file permissions that are unprotected or restrictive and in this case the 644 indicates readable and writable by the owner, but only readable by others* 
 
  
 ## Sources ##
 https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
+
 
 https://man7.org/linux/man-pages/man1/find.1.html
