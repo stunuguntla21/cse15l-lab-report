@@ -13,6 +13,7 @@ Explanation: the `ssh` command allows for the login into a specified server whic
 ![Image](2.png)
 
 Keys pressed:
+
 `g` `i` `t` `<space>` `c` `l` `o` `n` `e` `<space>` `<CTRL-V>` `<enter>` 
 
 Explanation: Using the ssh url copied from Github to paste it into the terminal, the git clone
@@ -65,18 +66,21 @@ Pressed the up arrow key twice as the `bash test.sh` was previously run two comm
 ![Image](7.png)
 
 Keys Pressed:
+
 `g` `i` `t` `<space>` `a` `d` `d` `<space>` `.` `<enter>` 
 
 Explanation:
 The `git add .` command stages all changes in the current directory to be ready to be included in the next git commit
 
 Keys Pressed:
+
 `g` `i` `t` `<space>` `c` `o` `m` `m` `i` `t` `<space>` `"` `C` `h` `a` `n` `g` `e` `d` `<space>` `i` `n` `d` `e` `x` `1` `<space>` `t` `o` `<space>` `i` `n` `d` `e` `x` `2` `"` `<enter>` 
 
 Explanation: 
 The `git commit` command creates a new commit containing the currently staged changes and byadding `-m` followed by quotation marks this allows for there to be a message inputted by the user with the commit.
 
 Keys Pressed:
+
 `g` `i` `t` `<space>` `p` `u` `s` `h` `<enter>` 
 
 Explanation:
