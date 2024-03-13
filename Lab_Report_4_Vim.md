@@ -16,15 +16,17 @@ Keys pressed:
 
 `g` `i` `t` `<space>` `c` `l` `o` `n` `e` `<space>` `<CTRL-V>` `<enter>` 
 
-Explanation: Using the ssh url copied from Github to paste it into the terminal, the git clone
-command is used to clone my fork of the lab7 repository on github into my virtual machine.
+Explanation: Using the  `ssh` url copied from Github to paste it into the terminal, the git clone
+command is used to clone my fork of the `lab7` repository on github into my virtual machine.
 
 ## Step #3 Run the tests to show failure
 ![Image](3.png)
 
 Keys pressed:
 `c` `d` `l` `<tab>` `<enter>`
+
 `l` `s` `<enter>`
+
 `b` `a` `s` `h` `<space>`  `t` `<tab>` `<enter>`
 
 Explanation:
@@ -39,10 +41,15 @@ Used the `bash` command to run a bash script in order to run the test
 
 Keys Pressed:
 `v` `i` `m` `<space>` `i` `<tab>` `.` `<tab>` `<enter>`
+
 `<up>` `<up>` `<up>` `<up>` `<up>` `<up>` `w` `w` `<left>`
+
 `i`
+
 `<delete>` `<2>` 
+
 `<esc>`
+
 `:` `w` `q` `<enter>` 
 
 Explanation: 
